@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+
+		<title>Frontend Mentor | Password generator app</title>
+	</head>
+	<body>
+		<main id="main-container">
+			<div id="pass-container">
+				<h2 class="title">Password Generator</h2>
+				<div class="output">
+					<h1 class="generated">PaSSworD</h1>
+					<div class="copy">
+						<img src="assets/images/icon-copy.svg" alt="Copy" />
+					</div>
+          <div class="copied">
+            <i class="fa fa-wand-sparkles"></i>
+            <p>Copied!</p>
+          </div>
+          <div class="no-check">
+            <i class="fa fa-x"></i>
+            <p>Please check at least one box.</p>
+          </div>
+				</div>
+				<div class="generator">
+					<div class="length">
+						<div class="length-text">
+							<h3>Character Length</h3>
+							<p class="range-output">8</p>
+						</div>
+						<div class="slider-container">
+							<input
+								type="range"
+								min="5"
+								max="20"
+								step="1"
+								value="8"
+								class="slider"
+							><div>
+               
+              </div>
+          </input>
+						</div>
+					</div>
+
+					<ul class="parameters">
+						<li class="param param-1">
+              <label class="check-container">Include Uppercase Letters
+                <input type="checkbox" name="param-list" id="uppercase" checked>
+                <span class="checkmark"></span>
+              </label>
+            
+						</li>
+						<li class="param param-2">
+              <label class="check-container">Include Lowercase Letters
+                <input type="checkbox" name="param-list"  id="lowercase" checked>
+                <span class="checkmark"></span>
+              </label>
+              
+				
+						</li>
+						<li class="param param-3">
+              <label class="check-container">Include Numbers
+                <input type="checkbox" name="param-list" id="numbers" >
+                <span class="checkmark"></span>
+              </label>
+     
+				
+						</li>
+						<li class="param param-4">
+              <label class="check-container">Include Symbols
+                <input type="checkbox" name="param-list" id="symbols" >
+                <span class="checkmark"></span>
+              </label>
+						</li>
+					</ul>
+					<div class="strength">
+						<p>Strength</p>
+            <div class="strength-box">
+              <p class="strength-text">Low</p>
+              <div class="boxes">
+                <div class="box box-1"></div>
+                <div class="box box-2"></div>
+                <div class="box box-3"></div>
+                <div class="box box-4"></div>
+              </div>
+          
+            </div>
+						
+					</div>
+					<div class="generate-button">
+						<h3>Generate</h3>
+						<img src="assets/images/icon-arrow-right.svg" alt="" />
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
