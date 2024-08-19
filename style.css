@@ -108,7 +108,7 @@ body {
 	border-radius: 18px;
 	justify-content: space-around;
 	align-items: center;
-
+	color: orangered;
 	text-shadow: 1px 1px 10px 8px hsl(161, 100%, 45%, 0.4);
 	opacity: 0;
 }
