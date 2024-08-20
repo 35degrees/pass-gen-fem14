@@ -367,4 +367,8 @@ label {
 	.output {
 		height: 58px;
 	}
+	.output .generated {
+		font-size: 1.3rem;
+		letter-spacing: 1px;
+	}
 }

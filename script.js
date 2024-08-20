@@ -185,12 +185,6 @@ function generatePassword(length, arr1) {
 	}
 }
 
-function checkStrength(length, arr1) {
-	// const checked = document.querySelectorAll(
-	// 	'input[type="checkbox"]:checked'
-	// ).length
-}
-
 function copy() {
 	copyBubble.classList.add('show')
 	setTimeout(() => copyBubble.classList.remove('show'), 1900)
