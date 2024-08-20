@@ -110,23 +110,6 @@ function setLength(e) {
 	lengthOutput.textContent = length
 }
 
-// function testChecked(length) {
-// 	let arr1 = []
-// 	if (uppercase.checked === true) {
-// 		arr1.push(...upperCaseLetters)
-// 	}
-// 	if (lowercase.checked === true) {
-// 		arr1.push(...lowerCaseLetters)
-// 	}
-// 	if (numbers.checked === true) {
-// 		arr1.push(...numbersZeroToNine)
-// 	}
-// 	if (symbols.checked === true) {
-// 		arr1.push(...selectedSpecialCharacters)
-// 	}
-// 	generatePassword(length, arr1)
-// }
-
 function makePass(e) {
 	let length = lengthOutput.textContent
 	let arr1 = []

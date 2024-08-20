@@ -113,6 +113,10 @@ body {
 	opacity: 0;
 }
 
+svg path {
+	fill: blue;
+}
+
 .show {
 	animation: fadeInOut 1.9s;
 }
@@ -173,8 +177,8 @@ body {
 }
 
 .slider::-moz-range-thumb {
-	height: 15px;
-	width: 15px;
+	height: 12px;
+	width: 12px;
 	background-color: #fff;
 	border-radius: 50%;
 	border: none;
@@ -182,10 +186,14 @@ body {
 }
 
 .slider::-webkit-slider-thumb:hover {
+	height: 18px;
+	width: 18px;
 	box-shadow: 0 0 12px 10px hsl(161, 100%, 45%, 0.4);
 }
 
 .slider::-moz-range-thumb:hover {
+	height: 18px;
+	width: 18px;
 	box-shadow: 0 0 10px 8px hsl(161, 100%, 45%, 0.4);
 }
 
