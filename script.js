@@ -152,13 +152,13 @@ function makePass(e) {
 function generatePassword(length, arr1) {
 	let output = []
 	let pass = ''
-	if (length * 3 + arr1.length >= 135) {
+	if (length * 3 + arr1.length >= 122) {
 		strengthText.textContent = 'excellent'
 		box1.style.backgroundColor = 'green'
 		box2.style.backgroundColor = 'green'
 		box3.style.backgroundColor = 'green'
 		box4.style.backgroundColor = 'green'
-	} else if (length * 3 + arr1.length >= 105) {
+	} else if (length * 3 + arr1.length >= 95) {
 		strengthText.textContent = 'good'
 		box1.style.backgroundColor = 'yellowgreen'
 		box2.style.backgroundColor = 'yellowgreen'
